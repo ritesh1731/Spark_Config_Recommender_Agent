@@ -20,7 +20,7 @@ An AI-driven agent that analyzes Spark event log files and provides optimized sp
 ## Setup
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/spark-config-recommender.git
+   git clone https://github.com/ritesh1731/Spark_Config_Recommender_Agent.git
    cd spark-config-recommender
 2. **Configure your API key**
    Create a .env file at the project root:
