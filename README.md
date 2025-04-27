@@ -9,15 +9,14 @@ An AI-driven agent that analyzes Spark event log files and provides optimized sp
 
 ## Project Structure
 project_root/
-├── main.py              # Entry point: parses logs and prints recommendations
-├── spark_log_parser.py  # Extracts metrics from Spark event JSON logs
-├── recommender.py       # Queries the LLM for config suggestions
-├── utils.py             # Loads environment variables (API key)
-├── requirements.txt     # Python dependencies
-├── Dockerfile           # Container setup
-├── .env                 # Holds OPENAI_API_KEY
-└── README.md            # This file
-
+├── main.py
+├── spark_log_parser.py
+├── recommender.py
+├── utils.py
+├── requirements.txt
+├── Dockerfile
+├── .env
+└── README.md
 ## Setup
 1. **Clone the repository**
    ```bash
