@@ -8,15 +8,15 @@ An AI-driven agent that analyzes Spark event log files and provides optimized sp
 - An OpenAI API key
 
 ## Project Structure
-project_root/
-├── main.py
-├── spark_log_parser.py
-├── recommender.py
-├── utils.py
-├── requirements.txt
-├── Dockerfile
-├── .env
-└── README.md
+      project_root/
+      ├── main.py
+      ├── spark_log_parser.py
+      ├── recommender.py
+      ├── utils.py
+      ├── requirements.txt
+      ├── Dockerfile
+      ├── .env
+      └── README.md
 ## Setup
 1. **Clone the repository**
    ```bash
