@@ -23,33 +23,32 @@ An AI-driven agent that analyzes Spark event log files and provides optimized sp
    git clone https://github.com/yourusername/spark-config-recommender.git
    cd spark-config-recommender
 2. **Configure your API key**
+   Create a .env file at the project root:
     ```bash
-    Create a .env file at the project root:
     OPENAI_API_KEY=your_openai_api_key_here
 
-Install dependencies
+3. Install dependencies
     ```bash
     pip install --no-cache-dir -r requirements.txt
 
-Usage
 
-Local Execution
+4. Local Execution
 
 Prepare a directory of Spark event logs (JSON format).
 
-Run the agent:
+5. Run the agent:
 
 python main.py --log-dir /path/to/your/spark/logs
 
 The agent will display metrics and print recommended spark-submit flags.
 
-Docker Execution
+6. Docker Execution
 
-Build the image
+6.1. Build the image
 
 docker build -t spark-recommender .
 
-Run the container
+6.2. Run the container
 
 docker run --env-file .env -v /path/to/logs:/logs spark-recommender
 
